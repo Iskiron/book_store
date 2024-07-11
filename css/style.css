@@ -475,6 +475,7 @@ color: #ffffff;
     margin: 0px;
     padding: 70px 0px 20px 0px;
 }
+
 .about_section_2 {
     width: 100%;
     float: left;
@@ -524,10 +525,47 @@ color: #ffffff;
     font-size: 40px;
     color: #ffffff;
     font-weight: 800;
-    padding: 20px;
+    margin: 40px 0px;
+}
+
+h1.about_title::after {
+    content: '';
+    position: absolute;
+    width: 400px;
+    background-color: #fff;
+    height: 2px;
+    left: initial;
+    right: 0px;
+    bottom: 40px;
 }
 
 /* ----------ABOUTUS---------- */
+
+/* ----------CATEGORIES---------- */
+
+.categories_main a{
+    height: 30vh;
+    text-align: center;
+    margin: auto;
+    display: ;
+
+}
+
+.categories_main a h4{
+    
+}
+
+.categories_box{
+    height: 250px;
+    width: 250px;
+    background: url(../images/temp.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ----------CATEGORIES---------- */
 
 /* ----------FOOTER---------- */
 
