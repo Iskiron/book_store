@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 html {
@@ -137,17 +140,20 @@ li {
     text-align: center;
     font-size: 60px;
 }
-.logo a{
+
+.logo a {
     text-decoration: none;
 }
-.logo a:hover{
+
+.logo a:hover {
     color: black;
 }
 
-.container{
+.container {
     width: 100%;
     height: fit-content;
 }
+
 .menu_main {
     flex-direction: column;
     padding-left: 0;
@@ -198,32 +204,36 @@ li {
     filter: invert(100%);
 }
 
-.login_header{
+.login_header {
     width: 100%;
     height: auto;
     text-align: center;
 }
-.login_logo{
+
+.login_logo {
     font-size: 100px;
     font-weight: 600;
     padding-bottom: 30px;
 
 }
-.login_logo a{
+
+.login_logo a {
     text-decoration: none;
 }
-.login_logo a:hover{
+
+.login_logo a:hover {
     color: #080807;
 }
 
-.login_header_bg{
+.login_header_bg {
     width: 100%;
     height: 100vh;
     background-image: url(../images/login-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.signup_header_bg{
+
+.signup_header_bg {
     width: 100%;
     height: 100vh;
     background-image: url(../images/signup-bg.jpeg);
@@ -231,7 +241,7 @@ li {
     background-size: cover;
 }
 
-.login_section{
+.login_section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,17 +260,20 @@ li {
     padding: 30px 40px;
     margin: auto auto;
 }
-.wrapper h1{
+
+.wrapper h1 {
     font-size: 36px;
     text-align: center;
     color: #fff;
 }
-.wrapper .input-box{
+
+.wrapper .input-box {
     width: 100%;
     height: 50px;
     margin: 30px 0;
 }
-.input-box input{
+
+.input-box input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -272,41 +285,43 @@ li {
     padding: 20px 45px 20px 20px;
 }
 
-.input-box input::placeholder{
-color: #ffffff;
+.input-box input::placeholder {
+    color: #ffffff;
 }
 
-.input-box i{
-    position:absolute ;
+.input-box i {
+    position: absolute;
     right: 20px;
     top: 50%;
     transform: translate(-50%);
     font-size: 20px;
 }
 
-.wrapper .remember-forgot{
+.wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
     margin: -15px 0 15px;
 
 }
-.remember-forgot label input{
+
+.remember-forgot label input {
     accent-color: #fff;
     margin-right: 3px;
 
 }
 
-.remember-forgot a{
+.remember-forgot a {
     color: #fff;
     text-decoration: none;
 }
 
-.remember-forgot a:hover{
+.remember-forgot a:hover {
     text-decoration: none;
 
 }
-.wrapper .btn{
+
+.wrapper .btn {
     width: 100%;
     height: 45px;
     background: #fff;
@@ -320,44 +335,48 @@ color: #ffffff;
     font-weight: 600;
 }
 
-.wrapper .register-link{
+.wrapper .register-link {
     font-size: 14px;
     text-align: center;
     margin: 20px 0 15px;
 
 }
 
-.register-link p a{
+.register-link p a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
-.register-link p a:hover{
+
+.register-link p a:hover {
     text-decoration: underline;
 }
 
 
 
 
-.signup_header{
+.signup_header {
     width: 100%;
     height: auto;
     text-align: center;
 }
-.signup_logo{
+
+.signup_logo {
     font-size: 100px;
     font-weight: 600;
     padding-bottom: 0px;
 
 }
-.signup_logo a{
+
+.signup_logo a {
     text-decoration: none;
 }
-.signup_logo a:hover{
+
+.signup_logo a:hover {
     color: #080807;
 }
 
-.signup_header_bg{
+.signup_header_bg {
     width: 100%;
     height: 100vh;
     background-image: url(../images/signup-bg.jpeg);
@@ -365,7 +384,7 @@ color: #ffffff;
     background-size: cover;
 }
 
-.signup_section{
+.signup_section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -381,20 +400,24 @@ color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: white;
     border-radius: 10px;
-    padding: 30px 40px;margin: auto auto;
+    padding: 30px 40px;
+    margin: auto auto;
 }
-.signup_section .wrapper h1{
+
+.signup_section .wrapper h1 {
     font-size: 36px;
     text-align: center;
     color: #fff;
     padding: 0px;
 }
-.signup_section .wrapper .input-box{
+
+.signup_section .wrapper .input-box {
     width: 100%;
     height: 45px;
     margin: 20px 0;
 }
-.signup_section .input-box input{
+
+.signup_section .input-box input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -406,19 +429,19 @@ color: #ffffff;
     padding: 20px 45px 20px 20px;
 }
 
-.signup_section .input-box input::placeholder{
-color: #ffffff;
+.signup_section .input-box input::placeholder {
+    color: #ffffff;
 }
 
-.signup_section .input-box i{
-    position:absolute ;
+.signup_section .input-box i {
+    position: absolute;
     right: 20px;
     top: 50%;
     transform: translate(-50%);
     font-size: 20px;
 }
 
-.signup_section .wrapper .remember-forgot{
+.signup_section .wrapper .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
@@ -426,7 +449,7 @@ color: #ffffff;
 
 }
 
-.signup_section .wrapper .btn{
+.signup_section .wrapper .btn {
     width: 100%;
     height: 45px;
     background: #fff;
@@ -440,19 +463,20 @@ color: #ffffff;
     font-weight: 600;
 }
 
-.signup_section .wrapper .register-link{
+.signup_section .wrapper .register-link {
     font-size: 14px;
     text-align: center;
     margin: 20px 0 15px;
 
 }
 
-.signup_section .register-link p a{
+.signup_section .register-link p a {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
-.signup_section .register-link p a:hover{
+
+.signup_section .register-link p a:hover {
     text-decoration: underline;
 }
 
@@ -460,7 +484,7 @@ color: #ffffff;
 
 /* ----------ABOUTUS---------- */
 
-.about_section{
+.about_section {
     width: 100%;
     float: left;
     padding-top: 90px;
@@ -481,21 +505,23 @@ color: #ffffff;
     float: left;
 }
 
-.front{
+.front {
     width: 100%;
     height: auto;
     float: left;
     text-align: center;
     margin: auto auto;
 }
-.front_heading h1{
+
+.front_heading h1 {
     font-size: 50px;
     color: #fff;
     font-weight: 600;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.front_btn button{
+
+.front_btn button {
     padding: 5px 30px;
     font-size: 15px;
     background: none;
@@ -504,21 +530,24 @@ color: #ffffff;
     border-radius: 5px;
 
 }
-.front_btn a{
+
+.front_btn a {
     text-decoration: none;
     color: #fff;
 }
-.front_btn button:hover{
+
+.front_btn button:hover {
     background-color: rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease-in-out;
 }
 
 
-.about_section img{
+.about_section img {
     width: 25vw;
     float: right;
     text-align: right;
 }
+
 .about_title {
     width: 100%;
     float: left;
@@ -543,29 +572,161 @@ h1.about_title::after {
 
 /* ----------CATEGORIES---------- */
 
-.categories_main a{
-    height: 30vh;
+.categories_main a {
+
     text-align: center;
     margin: auto;
-    display: ;
+
 
 }
 
-.categories_main a h4{
-    
+.categories_main a h4 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 85%;
+
 }
 
-.categories_box{
+.categories_box {
     height: 250px;
     width: 250px;
-    background: url(../images/temp.jpg);
+
+}
+
+.box1 {
+    background: url(../images/action-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box2 {
+    background: url(../images/comedy-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.box3 {
+    background: url(../images/knowledge-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* ----------CATEGORIES---------- */
+
+/* ----------BOOKSECTION---------- */
+.book_section {
+    width: 100%;
+    float: left;
+    height: auto;
+    background-size: 100%;
+    padding-bottom: 90px;
+}
+
+
+.book_section_2 {
+    width: 100%;
+    float: left;
+}
+
+.book_section_3 {
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+}
+
+.description {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.book_title {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #f1f0ef;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+
+.rate_text {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #f1f0ef;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.image_1 {
+    width: 90%;
+    float: left;
+}
+
+.image_2 {
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+
+.buy_btn {
+    width: 170px;
+    float: left;
+    margin-top: 15px;
+}
+
+.buy_btn a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #b60213;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.buy_btn a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: #ffffff;
+}
+
+.seemore_btn {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.seemore_btn a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #000;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.seemore_btn a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #b60213;
+}
+
+/* ----------BOOKSECTION---------- */
 
 /* ----------FOOTER---------- */
 
@@ -588,7 +749,7 @@ h1.about_title::after {
     color: #080807;
     text-align: center;
     font-weight: bold;
-    
+
 }
 
 .social_icon {
@@ -596,12 +757,14 @@ h1.about_title::after {
     margin: 0 auto;
     text-align: center;
 }
+
 .social_icon ul {
     margin: 0px;
     padding: 0px;
     display: inline-block;
     text-align: center;
 }
+
 .social_icon li {
     float: left;
     padding: 30px 15px;
@@ -612,18 +775,22 @@ h1.about_title::after {
     margin: 0 auto;
     text-align: center;
 }
+
 .location {
     width: 33.3%;
     float: left;
 }
+
 .mail {
     width: 33.3%;
     float: left;
 }
+
 .phone {
     width: 33.3%;
     float: left;
 }
+
 .location_item {
     width: 100%;
     float: left;
@@ -636,13 +803,15 @@ h1.about_title::after {
     text-decoration: none;
 }
 
-.social_icon ul li a img{
+.social_icon ul li a img {
     height: 33px;
     width: auto;
 }
+
 .location_padding {
     padding-left: 15px;
 }
+
 /* ----------HEADER---------- */
 
 
@@ -663,10 +832,12 @@ h1.about_title::after {
     font-size: 16px;
     padding: 10px;
 }
-.copyright_text a{
+
+.copyright_text a {
     color: #1c1b1b;
 }
-.copyright_text a:hover{
+
+.copyright_text a:hover {
     color: #b60213;
 }
 
