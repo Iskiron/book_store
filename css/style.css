@@ -842,3 +842,14 @@ h1.about_title::after {
 }
 
 /* ----------COPYRIGHT---------- */
+
+/* ----------PRELOADER---------- */
+#preloader{
+    background: #2b2c2f url(../images/preloader.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-size: 20%;
+}
+/* ----------PRELOADER---------- */
